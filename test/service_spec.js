@@ -7,7 +7,7 @@ const expect = chai.expect;
 const service = require('../service');
 const app = service.app;
 const cache = service.cache;
-
+console.log('UPDATED TESTS ')
 chai.use(chaiHttp);
 
 describe('Calculator service', () => {
